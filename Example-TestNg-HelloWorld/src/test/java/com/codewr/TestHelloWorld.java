@@ -1,3 +1,5 @@
+package com.codewr;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -10,7 +12,7 @@ import org.testng.annotations.Test;
 
 /**
  *
- * @author NXCOMM
+ * @author codewr
  */
 public class TestHelloWorld {
 

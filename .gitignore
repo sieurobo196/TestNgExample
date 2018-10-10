@@ -1,1 +1,11 @@
 /Example-TestNg-HelloWorld/target/
+/Example-TestNg-ignore-a-test-method/target/
+/Example-TestNg-Timeout-Test/target/
+/Example-TestNg-Config-Annotation/target/
+/Example-TestNg-Suite-Run-Multi-Class/target/
+/Example-TestNg-Dependency-method-group/target/
+/TestNG-LoadTest-Example/TestNG - LoadTest-Example/target/
+/Example-TestNg-Dependency-Groups/target/
+/Example-TestNg-Selenium-Load-Testing/target/
+/Example-TestNg-Spring/target/
+/Example-TestNg-No-Exception/target/

@@ -2,12 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="TestAll">
 
-<!--    <test name="final">
+    <test name="final">
         <classes>
             <class name="com.codewr.test.TestSelenium" />
             <class name="com.codewr.test.TestGroup" />
         </classes>
-    </test>-->
+    </test>
 	
     <!-- Run test method on group "selenium" only -->
     <test name="selenium">

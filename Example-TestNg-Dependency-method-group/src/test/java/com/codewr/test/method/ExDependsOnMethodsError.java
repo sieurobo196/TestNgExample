@@ -1,6 +1,5 @@
 package com.codewr.test.method;
 
-
 /**
  *
  * @author codewr

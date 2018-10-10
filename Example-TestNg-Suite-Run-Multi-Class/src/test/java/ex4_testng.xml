@@ -5,8 +5,8 @@
     <test name="database">
         <groups>
             <run>
-                <exclude name="brokenTests" />
-                <include name="db" />
+                <include name="db-nosql" />
+                <exclude name="db" />
             </run>
         </groups>
   

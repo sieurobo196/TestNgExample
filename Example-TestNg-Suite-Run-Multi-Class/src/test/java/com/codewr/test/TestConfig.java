@@ -1,4 +1,3 @@
-
 package com.codewr.test;
 
 import org.testng.annotations.AfterSuite;

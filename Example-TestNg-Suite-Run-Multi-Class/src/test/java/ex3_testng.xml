@@ -1,15 +1,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="TestAll">
-    
-    <test name="order">
-        <classes>
-            <class name="com.codewr.test.TestConfig" />
-            <class name="com.codewr.test.TestOrder">
-                <include name="testMakeOrder" />
-                <include name="testUpdateOrder" />
-            </class>
-        </classes>
-    </test>
+
+  <test name="order">
+	<classes>
+		<class name="com.codewr.test.TestConfig" />
+		<class name="com.codewr.test.TestOrder">
+			<methods>
+				<include name="testMakeOrder" />
+				<include name="testUpdateOrder" />
+			</methods>
+		</class>
+	</classes>
+  </test>
  
 </suite>

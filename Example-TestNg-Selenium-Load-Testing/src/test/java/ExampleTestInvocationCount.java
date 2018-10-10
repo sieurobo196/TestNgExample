@@ -1,12 +1,9 @@
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ExampleTestInvocationCount {
 //    invocationCount determined how many times TestNG should run this test method
-
 
     @Test(invocationCount = 5)
     public void loadTestThisWebsite() {
@@ -17,5 +14,4 @@ public class ExampleTestInvocationCount {
 
     }
 
-   
 }

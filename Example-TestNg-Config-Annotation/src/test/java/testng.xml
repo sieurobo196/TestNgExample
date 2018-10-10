@@ -4,24 +4,24 @@
 <!-- @BeforeSuite -->
 <suite name="TestAll">
 
-	<!-- @BeforeTest -->
-	<test name="case1">
-	  <classes>
-		<class name="com.codewr.config.TestConfiguration" />
-		<class name="com.codewr.config.TestDBConnection" />
-		<class name="com.codewr.config.DBConfig" />
-	  </classes>
-	</test>
-	<!-- @AfterTest -->
+    <!-- @BeforeTest -->
+    <test name="case1">
+        <classes>
+            <class name="com.codewr.config.TestConfiguration" />
+            <class name="com.codewr.config.TestCase" />
+            <class name="com.codewr.config.TestConfigSuite" />
+        </classes>
+    </test>
+    <!-- @AfterTest -->
 	
-	<!-- @BeforeTest -->
-	<test name="case2">
-	  <classes>
-		<class name="com.codewr.confieg.TestDBConnection" />
-		<class name="com.codewr.confieg.DBConfig" />
-	  </classes>
-	</test>
-	<!-- @AfterTest -->
+    <!-- @BeforeTest -->
+    <test name="case2">
+        <classes>
+            <class name="com.codewr.config.TestCase" />
+            <class name="com.codewr.config.TestConfigSuite" />
+        </classes>
+    </test>
+    <!-- @AfterTest -->
 	
 </suite>
 <!-- @AfterSuite -->

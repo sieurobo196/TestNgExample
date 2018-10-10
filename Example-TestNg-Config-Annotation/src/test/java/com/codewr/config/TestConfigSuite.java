@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeTest;
  *
  * @author codewr.com
  */
-public class DBConfig {
+public class TestConfigSuite {
 
     @BeforeSuite()
     public void beforeSuite() {

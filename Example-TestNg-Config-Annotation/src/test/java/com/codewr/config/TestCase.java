@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
  *
  * @author codewr.com
  */
-public class TestDBConnection {
+public class TestCase {
 
     @Test
     public void runOtherTest1() {

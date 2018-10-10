@@ -1,12 +1,5 @@
 package com.codewr;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -17,11 +10,11 @@ import org.testng.annotations.Test;
 public class TestHelloWorld {
 
     @Test()
-    public void testEmailGenerator() {
+    public void testStringRandom() {
 
+        System.out.println("Test String Random");
         RandomStringGenerator obj = new RandomStringGenerator();
         String textStr = obj.generate();
-
         Assert.assertNotNull(textStr);
         Assert.assertEquals(textStr, "Hello World");
 

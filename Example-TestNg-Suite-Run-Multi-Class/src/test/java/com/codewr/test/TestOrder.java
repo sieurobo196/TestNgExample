@@ -13,7 +13,7 @@ public class TestOrder {
         System.out.println("test Make Order");
     }
 
-    @Test(testName = "testMakeEmptyOrder",groups = "back")
+    @Test(testName = "test Make Empty Order",groups = "back")
     public void testMakeEmptyOrder() {
         System.out.println("test Make Empty Order");
     }
@@ -23,7 +23,7 @@ public class TestOrder {
         System.out.println("test Update Order");
     }
 
-    @Test(testName = "testFindOrder",groups = "front")
+    @Test(testName = "test Find Order",groups = "front")
     public void testFindOrder() {
         System.out.println("test Find Order");
     }

@@ -2,17 +2,18 @@
 
 <suite name="TestAll">
 
-    <test name="database">
-        <groups>
-            <run>
-                <include name="db-nosql" />
-                <exclude name="db" />
-            </run>
-        </groups>
-  
-        <classes>
-            <class name="com.codewr.test.TestDatabase" />
-        </classes>
-    </test>
- 
+	<test name="database">
+		<groups>
+			<define name="all">
+				<include name="db"></include>
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.codewr.test.TestDatabase" />
+		</classes>
+	</test>
+
 </suite>
